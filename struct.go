@@ -66,6 +66,30 @@ func main(){
 	
 	
 	
+	package main
+
+	import "fmt"
+
+	type jiegou struct{
+	    width, height int
+	}
+
+
+	func main() {
+	    sum := jiegou{width:100,height:80}
+
+	    mj := sum.mianji()
+
+	    fmt.Println(mj)
+	}
+
+	func (r jiegou) mianji() int{
+	    return r.width * r.height
+	}
+
+	
+	
+	
 	
 	
 	
