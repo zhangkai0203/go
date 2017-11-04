@@ -31,4 +31,7 @@
   ##### 编译
        go build index.go
         ./index
+        
+  ##### 编译并压缩文件,并go build 编译的文件节省空间
+        go build -ldflags "-s -w" index.go
        
