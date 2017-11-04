@@ -34,4 +34,8 @@
         
   ##### 编译并压缩文件,并go build 编译的文件节省空间
         go build -ldflags "-s -w" index.go
+  ##### 压缩可执行文件压缩工具 upx
+        https://github.com/upx/upx/releases/tag/v3.94
+        下载地址：https://github.com/upx/upx/releases/download/v3.94/upx394w.zip
+        upx index.go
        
