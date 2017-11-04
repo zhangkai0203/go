@@ -38,5 +38,6 @@
   * 官方网站 [https://upx.github.io/](https://upx.github.io/)
   * git [https://github.com/upx/upx/releases/tag/v3.94](https://github.com/upx/upx/releases/tag/v3.94)
   * 下载地址[https://github.com/upx/upx/releases/download/v3.94/upx394w.zip](https://github.com/upx/upx/releases/download/v3.94/upx394w.zip)
-        *upx index.go
+         
+         upx index.go
        
