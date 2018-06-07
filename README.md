@@ -40,4 +40,7 @@
   * 下载地址[https://github.com/upx/upx/releases/download/v3.94/upx394w.zip](https://github.com/upx/upx/releases/download/v3.94/upx394w.zip)
          
          upx index.go
+         
+ ##### go语言守护进程
+ 参考http://www.01happy.com/supervisor-golang-daemon/
        
