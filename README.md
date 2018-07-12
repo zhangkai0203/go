@@ -34,6 +34,7 @@
         
   ##### 编译并压缩文件,并go build 编译的文件节省空间
         go build -ldflags "-s -w" index.go
+		
   ##### 压缩可执行文件压缩工具 upx
   * 官方网站 [https://upx.github.io/](https://upx.github.io/)
   * git [https://github.com/upx/upx/releases/tag/v3.94](https://github.com/upx/upx/releases/tag/v3.94)
@@ -43,4 +44,11 @@
          
  ##### go语言守护进程
  参考http://www.01happy.com/supervisor-golang-daemon/
+ 
+    ##### GO语言秒杀实战
+	百度云盘：https://pan.baidu.com/s/1jbo6UotGW7Kf84ji0PB7Sg  密码：nau4
+	腾讯云：https://share.weiyun.com/5NjLpPp                   密码：e9thmp
+	
+	beego配置
+    http://www.tuicool.com/articles/UFbqQv
        
