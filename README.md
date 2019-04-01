@@ -14,7 +14,7 @@
       export GOBIN=$GOROOT/bin
   ##### 工作区  定义访问的目录
        export GOPATH=/home/www
-       export PATH=/usr/local/go/bin
+       export PATH=$PATH:$GOPATH:$GOBIN:$GOPATH
   ##### 对修改的文件进行立即生效
        source /etc/profile
   ##### 在/home/www/ 下创建index.go文件
@@ -52,3 +52,9 @@
 	beego配置
     http://www.tuicool.com/articles/UFbqQv
        
+ ##### goweb(书)
+    链接地址：https://www.kancloud.cn/kancloud/web-application-with-golang/44105
+ ##### go语言圣经（中文版）
+    链接地址：http://shouce.jb51.net/gopl-zh/index.html
+    链接地址：https://books.studygolang.com/gopl-zh/
+ 
