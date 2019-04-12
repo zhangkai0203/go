@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ template "title" }}</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        .header{
+            width: 100%;
+            height: 120px;
+            border: 1px solid red;
+        }
+        .contenter{
+            width: 100%;
+            height: 500px;
+            border: 1px solid red;
+        }
+        .footer{
+            width: 100%;
+            height: 80px;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">头部{{ .Title }}</div>
+
+    {{ template "index" .}}
+
+    <div class="footer">底部</div>
+</body>
+</html>
